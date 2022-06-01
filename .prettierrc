@@ -1,0 +1,18 @@
+{
+  "overrides": [
+    {
+      "files": "*.scss",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ],
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "tabWidth": 2,
+  "printWidth": 160,
+  "singleAttributePerLine": true
+}
