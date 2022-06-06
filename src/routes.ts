@@ -4,7 +4,7 @@ import HomePage from '@/pages/home.vue'
 import AboutPage from '@/pages/about.vue'
 import NotFoundPage from '@/pages/notFound.vue'
 
-const routerHistory = createWebHistory()
+const routerHistory = createWebHistory(process.env.BASE_URL)
 
 const routes = createRouter({
   history: routerHistory,
